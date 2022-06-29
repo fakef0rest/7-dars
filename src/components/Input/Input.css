@@ -1,0 +1,6 @@
+.re-input {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid black;
+    outline: none;
+}

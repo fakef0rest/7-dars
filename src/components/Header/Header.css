@@ -1,0 +1,9 @@
+header.light {
+    background-color: orange;
+    color: white;
+}
+
+header.dark {
+    background-color: #000;
+    color: white;
+}
