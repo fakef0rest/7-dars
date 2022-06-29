@@ -24,7 +24,7 @@ export const Modal = ({children, open, setOpen, handleOk, okText = 'Save'}) => {
         return () => {
             window.removeEventListener('keyup', handleCloseKey);
         }
-    }, [])
+    })
 
     return (
         <div onClick={handleCloseBackground} className="modal">
